@@ -2,12 +2,6 @@
 """
 Basic ChatBot with Azure OpenAI, packaged as an MLflow pyfunc model.
 
-This script mirrors the functionality of the original Databricks notebook:
-- Creates an Azure OpenAI client
-- Calls Chat Completions
-- Wraps the logic in an MLflow `pyfunc.PythonModel`
-- Saves, loads, tests, and logs the model to MLflow
-
 Prerequisites:
 - pip install openai==1.56.0 mlflow pandas
 - Set environment variables:
